@@ -97,7 +97,7 @@ html, body, h1 {
 	}
 }
 
-@-webkit-keyframes glitch-animate {
+@-webkit-keyframes glitch-animate-mobile {
   $steps: 20;
   @for $i from 0 through $steps {
     #{percentage($i*(1/$steps))} {
@@ -182,7 +182,7 @@ html, body, h1 {
   }
 
 //for ultra randomness.
-@-webkit-keyframes glitch-animate2 {
+@-webkit-keyframes glitch-animate2-mobile {
 	$steps: 20;
 	@for $i from 0 through $steps {
 	  #{percentage($i*(1/$steps))} {
@@ -338,7 +338,7 @@ html, body, h1 {
 			
 		*/
 		animation: glitch-skew 3s 2 linear alternate-reverse;
-		width: 59%;
+		width: 58%;
 
 		&::before{
 			@include glitchCopy;
